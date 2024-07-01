@@ -1,14 +1,14 @@
-#  A Scalable System for Analysis-driven Attack Graph Generation Through Progressive Data Analysis
+# It Is Time To Steer: A Scalable Framework for Analysis-driven Attack Graph Generation
 
 ## Abstract
 
-In the current networks, where cyber attacks occur daily evolving even more sophisticated, a timely cyber risk assessment becomes paramount.
-We focus on the pervasive threat of multi-step attacks, particularly insidious for network security.
-Attack Graph (AG) represents the most suited solution to model and analyze these attacks, although they suffer from poor scalability due to the complexity of attack path analysis.
+Attack Graph (AG) represents the best-suited solution to support cyber risk assessment for multi-step attacks on computer networks, although their generation suffers from poor scalability due to their combinatorial complexity.
+Current solutions propose to address the generation problem from the algorithmic perspective and postulate the analysis only after the generation is complete, thus implying too long waiting time before enabling analysis capabilities.
+Additionally, they poorly capture the dynamic changes in the networks due to long generation times.
 
-To effectively monitor the exposure to multi-step attacks, we introduces a novel progressive analytics framework for AG generation and attack path analysis.
-First, it enables real-time attack path analysis before the completion of the AG generation process with a quantifiable approximation degree. This is achieved by leveraging the concept of statistical significance.
-Second, we further enhance the efficiency of attack path analysis by accelerating the AG generation based on specific analysis queries, prioritizing the computation of paths relevant to the analyst's needs. This is achieved through the design of a steering mechanism over the progressive framework.
+To mitigate these problems, this paper rethinks the classic AG analysis through a novel workflow in which the analyst can query the system anytime, thus enabling real-time analysis before the completion of the AG generation with quantifiable statistical significance.
+Further, we introduce a mechanism to accelerate the generation by steering it with the analysis query.
+To show the capabilities of the proposed framework, we perform an extensive quantitative validation and present a realistic case study on networks of unprecedented size. It demonstrates the advantages of our approach in terms of scalability and fitting to common attack path analyses.
 
 In this repository, you can find implementation choices, customized configuration files, and validation scenarios.
 
