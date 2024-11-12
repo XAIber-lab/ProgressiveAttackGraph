@@ -26,6 +26,8 @@ Additionally, the following scripts have their own main functions to be executed
 - main.py (implements the main logic of the whole approach StatAG and SteerAG in a multicore enviroment)
 - plot_analysis.py (implements the charts for the analysis of StatAG and SteerAG)
 
+Finally, in the folder "use_case_data" you can find an anonymized version of the use case with 246 hosts, their vulnerabilities, and reachability conditions.
+
 ## Configuration Parameters
 
 The following parameters can be configured in the config.py file:
